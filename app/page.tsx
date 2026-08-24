@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Icon from '../components/Icon';
 
+const basePath = process.env.GITHUB_ACTIONS ? '/landing-serverlessscanner' : '';
+
 const FEATURES = [
   {
     icon: 'upload_file',
@@ -92,7 +94,7 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-6">
           <div className="overflow-hidden rounded-2xl border border-outline-variant bg-surface shadow-lg">
             <Image
-              src="/screenshot-new-analysis.png"
+              src={`${basePath}/screenshot-new-analysis.png`}
               alt="Pantalla de nuevo análisis en Serverless Scanner: subida de diagramas y selección de stack tecnológico"
               width={1440}
               height={900}
