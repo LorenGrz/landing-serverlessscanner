@@ -2,7 +2,7 @@
 
 Sitio estático de portfolio para [Serverless Scanner](https://github.com/LorenGrz/ServerlessScanner) — una herramienta que analiza infraestructura SaaS y genera un roadmap de migración a AWS serverless con estimación de ROI.
 
-No tiene servidor ni llamadas a API. Es una landing que explica el proyecto, muestra una captura real de la app y enlaza a la app en vivo y al repositorio.
+No tiene servidor ni llamadas a API. Es una landing que explica el proyecto, muestra una captura real de la app y enlaza al repositorio (la app ya no está desplegada).
 
 ## Stack
 

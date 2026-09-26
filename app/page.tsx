@@ -67,15 +67,8 @@ export default function Home() {
         </p>
         <div className="flex flex-wrap items-center justify-center gap-3">
           <a
-            href="https://lorengrz.github.io/ServerlessScanner/"
-            className="flex items-center gap-2 rounded-xl bg-primary px-6 py-3 font-bold text-on-primary shadow-md transition-transform hover:scale-[1.02]"
-          >
-            <Icon name="rocket_launch" />
-            Probar la app
-          </a>
-          <a
             href="https://github.com/LorenGrz/ServerlessScanner"
-            className="flex items-center gap-2 rounded-xl border border-outline-variant px-6 py-3 font-bold text-on-surface transition-colors hover:bg-surface-alt"
+            className="flex items-center gap-2 rounded-xl bg-primary px-6 py-3 font-bold text-on-primary shadow-md transition-transform hover:scale-[1.02]"
           >
             <Icon name="code" />
             Ver el código
